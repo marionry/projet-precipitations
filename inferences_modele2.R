@@ -1,5 +1,7 @@
 ## ALGORITHME ML MODELE 2 
 
+library(evd) 
+
 # Fonction G
 G_model2 <- function(v, p, k1, k2) {
   return(p * v^k1 + (1 - p) * v^k2)
